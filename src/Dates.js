@@ -1,5 +1,4 @@
 import Carousel from 'react-bootstrap/Carousel';
-import Card from './Card';
 
 
 function NoTransitionExample() {
@@ -12,8 +11,14 @@ function NoTransitionExample() {
           alt="First slide"
         />
         <Carousel.Caption>
-        <p className="text-dark">Date </p>
-        <p className="text-dark">varalakshmi vratham</p>
+             <img
+          className="d-block w-25"
+          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          alt="First slide"
+        />  
+          <p>Name
+          <br /> Role </p>
+          
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -24,9 +29,13 @@ function NoTransitionExample() {
         />
 
         <Carousel.Caption>
-          <p>Date 
-        <br />vinayaka chavithi</p>
-          
+        <img
+          className="d-block w-25"
+          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          alt="First slide"
+        />  
+          <p>Name
+          <br /> Role </p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -37,9 +46,13 @@ function NoTransitionExample() {
         />
 
         <Carousel.Caption>
-        <p>Date </p>
-        <p>Diwali</p>
-          
+        <img
+          className="d-block w-25 ml-5"
+          src="https://cdn-icons-png.flaticon.com/512/149/149071.png"
+          alt="First slide"
+        />  
+          <p>Name <br />
+            Role  </p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
